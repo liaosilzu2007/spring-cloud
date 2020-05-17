@@ -1,0 +1,11 @@
+server:
+  port: 9110
+spring:
+  application:
+    name: eureka-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9110/eureka   #注册中心地址，其他程序通过次URL进行注册
+    register-with-eureka: false   #当前应用就是Eureka Server，不需要注册到eureka
+    fetch-registry: false     #因为euraka-server是单个节点，不需要同步其他节点的数据

@@ -1,0 +1,18 @@
+server:
+  port: 9112
+spring:
+  application:
+    name: admin-cloud-client
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9110/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always  #显示详细信息，而不是仅显示概要

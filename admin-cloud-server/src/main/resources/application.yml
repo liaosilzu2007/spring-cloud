@@ -1,0 +1,9 @@
+server:
+  port: 9111
+spring:
+  application:
+    name: admin-cloud-server
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9110/eureka   #eureka注册中心地址
