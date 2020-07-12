@@ -12,6 +12,7 @@
         <module>eureka-server</module>
         <module>admin-cloud-server</module>
         <module>admin-cloud-client</module>
+        <module>springcloud.apollo</module>
     </modules>
 
     <parent>
@@ -31,6 +32,7 @@
         <lombok.version>1.18.8</lombok.version>
         <spring-cloud.version>Greenwich.SR3</spring-cloud.version>
         <spring-boot-admin.version>2.1.4</spring-boot-admin.version>
+        <apollo-client.version>1.4.0</apollo-client.version>
     </properties>
 
     <dependencyManagement>
@@ -88,6 +90,11 @@
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
                 <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.ctrip.framework.apollo</groupId>
+                <artifactId>apollo-client</artifactId>
+                <version>${apollo-client.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

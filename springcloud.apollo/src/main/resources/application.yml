@@ -1,0 +1,5 @@
+app:
+  id: apollo-test   #和apollo中的appid要一致
+apollo:
+  meta: http://192.168.0.104:8080   #meta server地址，也即是ConfigService服务的地址
+  cacheDir: /opt/data/apollo    #缓存文件的目录
