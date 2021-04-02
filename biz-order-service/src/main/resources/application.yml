@@ -1,0 +1,17 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: biz-order-service
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9110/eureka
+
+logging:
+  level:
+    root: info
+feign:
+  okhttp:
+    enabled: true

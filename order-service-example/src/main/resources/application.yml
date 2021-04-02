@@ -1,8 +1,0 @@
-server:
-  port: 8081
-logging:
-  level:
-    root: info
-feign:
-  okhttp:
-    enabled: true
