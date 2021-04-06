@@ -1,8 +1,8 @@
-package com.lzumetal.springcloud.addressservice.example.controller;
+package com.lzumetal.springcloud.addressservice.controller;
 
 import com.lzumetal.cloud.common.resp.ResponseData;
-import com.lzumetal.springcloud.addressservice.example.biz.AddressService;
-import com.lzumetal.springcloud.addressservice.example.entity.Address;
+import com.lzumetal.springcloud.addressservice.biz.AddressService;
+import com.lzumetal.springcloud.addressservice.entity.Address;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

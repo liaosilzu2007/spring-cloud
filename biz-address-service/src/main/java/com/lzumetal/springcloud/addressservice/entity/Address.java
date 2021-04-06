@@ -1,4 +1,4 @@
-package com.lzumetal.springcloud.addressservice.example.entity;
+package com.lzumetal.springcloud.addressservice.entity;
 
 import lombok.Getter;
 import lombok.Setter;

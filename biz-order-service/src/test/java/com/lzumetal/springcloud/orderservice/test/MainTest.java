@@ -1,9 +1,9 @@
-package com.lzumetal.springcloud.orderservice.example.test;
+package com.lzumetal.springcloud.orderservice.test;
 
 import com.lzumetal.cloud.common.resp.ResponseData;
-import com.lzumetal.springcloud.orderservice.example.OrderServiceBootstrap;
-import com.lzumetal.springcloud.orderservice.example.client.SinaApiClient;
-import com.lzumetal.springcloud.orderservice.example.client.UserServiceClient;
+import com.lzumetal.springcloud.orderservice.OrderServiceBootstrap;
+import com.lzumetal.springcloud.orderservice.client.SinaApiClient;
+import com.lzumetal.springcloud.orderservice.client.UserServiceClient;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

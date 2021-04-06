@@ -1,8 +1,8 @@
-package com.lzumetal.springcloud.userservice.example.controller;
+package com.lzumetal.springcloud.userservice.controller;
 
 import com.lzumetal.cloud.common.resp.ResponseData;
-import com.lzumetal.springcloud.userservice.example.biz.UserService;
-import com.lzumetal.springcloud.userservice.example.entity.User;
+import com.lzumetal.springcloud.userservice.entity.User;
+import com.lzumetal.springcloud.userservice.biz.UserService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

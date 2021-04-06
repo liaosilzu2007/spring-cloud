@@ -1,4 +1,4 @@
-package com.lzumetal.springcloud.userservice.example.entity;
+package com.lzumetal.springcloud.userservice.entity;
 
 
 import lombok.Getter;

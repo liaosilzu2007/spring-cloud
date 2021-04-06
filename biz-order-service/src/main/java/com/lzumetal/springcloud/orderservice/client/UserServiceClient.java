@@ -1,4 +1,4 @@
-package com.lzumetal.springcloud.orderservice.example.client;
+package com.lzumetal.springcloud.orderservice.client;
 
 import com.lzumetal.cloud.common.resp.ResponseData;
 import org.springframework.cloud.openfeign.FeignClient;

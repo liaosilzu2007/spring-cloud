@@ -1,6 +1,6 @@
-package com.lzumetal.springcloud.addressservice.example.biz;
+package com.lzumetal.springcloud.addressservice.biz;
 
-import com.lzumetal.springcloud.addressservice.example.entity.Address;
+import com.lzumetal.springcloud.addressservice.entity.Address;
 import org.springframework.stereotype.Service;
 
 /**

@@ -1,4 +1,4 @@
-package com.lzumetal.springcloud.orderservice.example.biz;
+package com.lzumetal.springcloud.orderservice.biz;
 
 import org.springframework.stereotype.Service;
 

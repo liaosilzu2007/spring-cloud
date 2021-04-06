@@ -1,4 +1,4 @@
-package com.lzumetal.springcloud.orderservice.example.client;
+package com.lzumetal.springcloud.orderservice.client;
 
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;

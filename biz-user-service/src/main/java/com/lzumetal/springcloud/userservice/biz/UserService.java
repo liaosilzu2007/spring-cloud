@@ -1,6 +1,6 @@
-package com.lzumetal.springcloud.userservice.example.biz;
+package com.lzumetal.springcloud.userservice.biz;
 
-import com.lzumetal.springcloud.userservice.example.entity.User;
+import com.lzumetal.springcloud.userservice.entity.User;
 import org.springframework.stereotype.Service;
 
 /**

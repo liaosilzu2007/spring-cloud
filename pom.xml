@@ -9,14 +9,14 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <module>common</module>
         <module>eureka-server</module>
         <module>admin-server</module>
         <module>admin-client</module>
         <module>apollo-config-center</module>
-        <module>user-service-example</module>
-        <module>common</module>
-        <module>address-service-example</module>
-        <module>order-service-example</module>
+        <module>biz-user-service</module>
+        <module>biz-address-service</module>
+        <module>biz-order-service</module>
     </modules>
 
     <parent>

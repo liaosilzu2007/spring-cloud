@@ -1,20 +1,20 @@
-package com.lzumetal.springcloud.userservice.example;
+package com.lzumetal.springcloud.orderservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 /**
  * @author liaosi
  * @date 2021-02-24
  */
 @SpringBootApplication
-@EnableEurekaClient
-public class UserServiceBootstrap {
+@EnableFeignClients
+public class OrderServiceBootstrap {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(UserServiceBootstrap.class, args);
+        SpringApplication.run(OrderServiceBootstrap.class, args);
     }
 
 }

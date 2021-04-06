@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>order-center-example</artifactId>
+    <artifactId>biz-order-center</artifactId>
 
     <dependencies>
         <dependency>
