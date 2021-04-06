@@ -1,11 +1,12 @@
 server:
-  port: 8001
+  port: 8011
 spring:
   application:
-    name: biz-user-service
+    name: ribbon-provider
 eureka:
   client:
     service-url:
       defaultZone: http://localhost:9110/eureka
 logging:
-  config: classpath:logback.xml
+  level:
+    root : info

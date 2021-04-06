@@ -34,7 +34,7 @@ public class MainTest {
 
     @Test
     public void getUserByIdTest() {
-        ResponseData resp = userServiceClient.getById(1);
+        ResponseData resp = userServiceClient.getById(2);
         System.out.println(resp);
     }
 

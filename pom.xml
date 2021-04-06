@@ -17,6 +17,8 @@
         <module>biz-user-service</module>
         <module>biz-address-service</module>
         <module>biz-order-service</module>
+        <module>ribbon-provider</module>
+        <module>ribbon-consumer</module>
     </modules>
 
     <parent>
@@ -27,6 +29,7 @@
     </parent>
 
     <properties>
+        <maven.test.skip>true</maven.test.skip>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
