@@ -19,6 +19,7 @@
         <module>biz-order-service</module>
         <module>ribbon-provider</module>
         <module>ribbon-consumer</module>
+        <module>hystrix</module>
     </modules>
 
     <parent>
